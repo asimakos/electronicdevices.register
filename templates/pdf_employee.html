@@ -1,0 +1,40 @@
+{% extends "easy_pdf/base.html" %}
+{% load  staticfiles %}
+{% load i18n %}
+
+<br/>
+<br/>
+{% block content %}
+    <div id="content">
+      <table>
+              <tr>
+                <td colspan="2">
+                  <p style="text-align:center">              
+                    <img src='{% static "images/item.jpg" %}' width="90">
+                  </p>                
+                </td>
+              </tr>        
+          </table>
+          </br>
+        <div class="main">
+            <table>
+               <tr>
+                  <th> {% trans "authority_name" %}: </th>
+                  <td> {{query_results.authority}} </td>
+               </tr>
+               <tr>
+                  <th> {% trans "division_name" %}: </th>
+                  <td> {{query_results.division}} </td>
+               </tr>
+               <tr>
+                  <th> {% trans "employee_name" %}: </th>
+                  <td> {{query_results.name}} </td>
+               </tr>
+            </table>        
+        </div>
+    </div>
+{% endblock %}
+
+{%block page_foot%}
+    <pdf:pagenumber /> / <pdf:pagecount>
+{%endblock%}

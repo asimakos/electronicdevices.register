@@ -1,0 +1,161 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Apografi\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-05-04 11:27+0300\n"
+"PO-Revision-Date: 2016-05-17 11:53+0200\n"
+"Last-Translator: Kostas <kon@in.gr>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Language: el_GR\n"
+
+#: .\templates\widgets\tables\tables.html:69
+msgid "%(count)s of %(total)s"
+msgstr "%(count)s από %(total)s"
+
+#: .\templates\category\create.html:16 .\templates\authority\create.html:16
+#: .\templates\division\create.html:16
+msgid "Create"
+msgstr "Δημιουργία"
+
+#: .\templates\category\update.html:17 .\templates\authority\update.html:17
+#: .\templates\division\update.html:16
+msgid "Update"
+msgstr "Ενημέρωση"
+
+#: .\templates\category\delete.html:15 .\templates\authority\delete.html:15
+#: .\templates\division\delete.html:15
+msgid "Delete"
+msgstr "Διαγραφή"
+
+#: .\templates\category\delete.html:18 .\templates\authority\delete.html:18
+#: .\templates\division\delete.html:18
+msgid "Are you sure you want to delete the selected"
+msgstr "Θέλετε να διαγράψετε την επιλεγνένη εγγραφή"
+
+#: .\templates\widgets\form.html:18
+msgid "Save"
+msgstr "Αποθήκευση"
+
+#: .\templates\authority\detail.html:34 .\templates\division\detail.html:34
+#: .\templates\category\detail.html:34
+msgid "pedio"
+msgstr "Όνομα Πεδίου"
+
+#: .\templates\authority\detail.html:35 .\templates\division\detail.html:35
+#: .\templates\category\detail.html:35
+msgid "timh"
+msgstr "Τιμή Πεδίου"
+
+#: .\templates\division\list.html:15 .\templates\authority\list.html:15
+#: .\templates\category\list.html:15
+msgid "Add"
+msgstr "Προσθήκη"
+
+#: .\templates\division\list.html:25 .\templates\authority\list.html:25
+#: .\templates\category\list.html:25
+msgid "Search"
+msgstr "Αναζήτηση"
+
+msgid "apografi"
+msgstr "Απογραφή"
+
+msgid "category"
+msgstr "Κατηγορία"
+
+msgid "authority"
+msgstr "Διεύθυνση"
+
+msgid "division"
+msgstr "Τμήμα"
+
+msgid "employee"
+msgstr "Προσωπικό"
+
+msgid "article"
+msgstr "Συσκευή"
+
+msgid "username"
+msgstr "Όνομα  Χρήστη"
+
+msgid "password"
+msgstr "Κωδικός  Χρήστη"
+
+msgid "connect"
+msgstr "Σύνδεση"
+
+msgid "Sorry, wrong data"
+msgstr "Συγνώμη, τα στοιχεία που εισάγετε δεν είναι έγκυρα!"
+
+msgid "no valid user"
+msgstr "Άκυρος Χρήστης"
+
+msgid "please try again"
+msgstr "Παρακαλώ προσπαθήστε ξανά"
+
+msgid "here"
+msgstr "εδώ"
+
+msgid "disconnect"
+msgstr "Αποσύνδεση"
+
+msgid "congrats"
+msgstr "Συγχαρητήρια"
+
+msgid "loggedin"
+msgstr "Επιλέξτε ένα από τα παραπάνω μενού για να συνεχίσετε"
+
+msgid "pc"
+msgstr "Η/Υ"
+
+msgid "fax"
+msgstr "Φαξ"
+
+msgid "laptop"
+msgstr "Φορητός"
+
+msgid "keyboard"
+msgstr "Πληκτρολόγιο"
+
+msgid "screen"
+msgstr "Οθόνη"
+
+msgid "category_name"
+msgstr "ΚΑΤΗΓΟΡΙΑ ΥΛΙΚΟΥ"
+
+msgid "authority_name"
+msgstr "ΔΙΕΥΘΥΝΣΗ ΥΛΙΚΟΥ"
+
+msgid "division_name"
+msgstr "TMHMA ΥΛΙΚΟΥ"
+
+msgid "employee_name"
+msgstr "ΠΡΟΣΩΠΙΚΟ"
+
+msgid "marka_name"
+msgstr "ΜΑΡΚΑ ΥΛΙΚΟΥ"
+
+msgid "montelo_name"
+msgstr "ΜΟΝΤΕΛΟ ΥΛΙΚΟΥ"
+
+msgid "seiriakos_name"
+msgstr "ΣΕΙΡΙΑΚΟΣ ΥΛΙΚΟΥ"
+
+msgid "leitourgiko_name"
+msgstr "ΛΕΙΤΟΥΡΓΙΚΟ ΣΥΣΤΗΜΑ ΥΛΙΚΟΥ"
+
+msgid "num_apografis_name"
+msgstr "ΑΡΙΘΜΟΣ ΛΕΙΤΟΥΡΓΙΚΟΥ ΣΥΣΤΗΜΑΤΟΣ"
+
+msgid "sxolia_name"
+msgstr "ΠΑΡΑΤΗΡΗΣΕΙΣ"

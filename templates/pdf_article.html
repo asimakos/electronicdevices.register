@@ -1,0 +1,65 @@
+{% extends "easy_pdf/base.html" %}
+{% load  staticfiles %}
+{% load i18n %}
+
+<br/>
+<br/>
+{% block content %}
+    <div id="content">
+      <table>
+              <tr>
+                <td colspan="2">
+                  <p style="text-align:center">              
+                    <img src='{% static "images/item.jpg" %}' width="90">
+                  </p>                
+                </td>
+              </tr>        
+          </table>
+          </br>
+        <div class="main">
+            <table>
+               <tr>
+                  <th> {% trans "authority_name" %}: </th>
+                  <td> {{query_results.authority}} </td>
+               </tr>
+               <tr>
+                  <th> {% trans "category_name" %}: </th>
+                  <td> {{query_results.category}} </td>
+               </tr>
+               <tr>
+                  <th> {% trans "employee_name" %}: </th>
+                  <td> {{query_results.employee}} </td>
+               </tr>
+               <tr>
+                  <th> {% trans "marka_name" %}: </th>
+                  <td> {{query_results.marka}} </td>
+               </tr>
+               <tr>
+                  <th> {% trans "montelo_name" %}: </th>
+                  <td> {{query_results.montelo}} </td>
+               </tr>
+               <tr>
+                  <th> {% trans "seiriakos_name" %}: </th>
+                  <td> {{query_results.seiriakos}} </td>
+               </tr>
+               <tr>
+                  <th> {% trans "leitourgiko_name" %}: </th>
+                  <td> {{query_results.leitourgiko}} </td>
+               </tr>
+               <tr>
+                  <th> {% trans "num_apografis_name" %}: </th>
+                  <td> {{query_results.num_apografis}} </td>
+               </tr>
+               <tr>
+                  <th> {% trans "sxolia_name" %}: </th>
+                  <td> {{query_results.sxolia}} </td>
+               </tr>
+            </table>        
+        </div>
+    </div>
+{% endblock %}
+
+
+{%block page_foot%}
+   <pdf:pagenumber /> / <pdf:pagecount>
+{%endblock%}

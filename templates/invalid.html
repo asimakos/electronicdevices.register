@@ -1,0 +1,34 @@
+
+{% extends "user.html" %}
+{% load i18n %}
+
+
+{% block main_content %}
+</br>
+</br>
+
+<div class="container">
+       
+          <div class="row">
+          
+               <div class="col-xs-8 col-sm-10">
+               
+                    <div class="alert alert-danger">
+                              <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                              <b>
+                              {% trans "no valid user" %}!
+                              </b>
+                              {% trans "please try again" %}
+                              </br>
+                              
+                              <a href="{% url 'user_login' %}" class="btn btn-info">
+                              {% trans "here" %}
+                              </a>
+                    
+                    </div>
+              </div>
+          </div>
+</div>
+
+
+{% endblock %}
